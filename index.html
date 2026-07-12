@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Crown Barber Lounge</title>
+
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            color: #222;
+        }
+
+        header {
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        header h1 {
+            font-size: 40px;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        section {
+            padding: 30px 20pFx;
+            text-align: center;
+        }
+
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            width: 250px;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px #ccc;
+        }
+
+        .card h3 {
+            color: #b8860b;
+        }
+
+        .button {
+          border-radius: 30px;
+padding: 14px 30px;
+letter-spacing: 1px;
+transition: 0.3s;
+            display: inline-block;
+            background: #b8860b;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 25px;
+            margin-top: 20px;
+        }
+
+        footer {
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        form input, form select {
+    width: 80%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    border: none;
+    cursor: pointer;
+}
+textarea {
+    width: 80%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+  {
+    color: #b8860b;
+}
+
+.card {
+    border: 1px solid #b8860b;
+}
+
+.button {
+    background: #b8860b;
+    color: white;
+    font-weight: bold;
+}
+header h1 {
+    letter-spacing: 2px;
+}
+
+header p {
+    letter-spacing: 1px;
+}
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .services {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button {
+        padding: 12px 20px;
+    }
+}
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #b8860b;
+}
+
+.logo span {
+    display: block;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.logo small {
+    display: block;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 5px;
+}
+.logo {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.logo .crown {
+    font-size: 50px;
+    color: #b8860b;
+}
+
+.logo h2 {
+    margin: 5px 0;
+    font-size: 35px;
+    letter-spacing: 5px;
+    color: #b8860b;
+    font-family: Georgia, serif;
+}
+
+.logo p {
+    margin: 0;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 8px;
+}
+header p {
+    letter-spacing: 2px;
+    font-style: italic;
+}
+.gallery-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.gallery-card {
+    width: 250px;
+}
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #b8860b;
+}
+section .card p {
+    line-height: 1.7;
+    font-size: 16px;
+}
+#reviews {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#reviews h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.review {
+    background: white;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 15px;
+    max-width: 450px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.review h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.review p {
+    line-height: 1.6;
+}
+    </style>
+
+</head>
+
+
+<body>
+
+<header>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#booking">Booking</a>
+    <a href="#contact">Contact</a>
+</nav>
+    <div class="logo">
+    <div class="crown">♛</div>
+    <h2>THE CROWN</h2>
+    <p>BARBER LOUNGE</p>
+</div>
+<p>
+    Where Style Meets Confidence
+</p>
+
+    <a class="button" href="https://wa.me/2349136774172">
+        Book Appointment
+    </a>
+</header>
+<section>
+    <h2>About The Crown Barber Lounge</h2>
+
+    <div class="card">
+        <p>
+            The Crown Barber Lounge is a premium grooming destination
+            where style, confidence, and quality come together.
+        </p>
+
+        <p>
+            Our professional barbers provide modern haircuts,
+            beard grooming, and a luxury experience for every customer.
+        </p>
+    </div>
+
+</section>
+
+<section>
+<section id="services">
+<h2>Our Services</h2>
+
+<div class="card">
+    <h3>Classic Haircut</h3>
+    <p>Clean and stylish cuts.</p>
+    <strong>₦5,000</strong>
+</div>
+
+<div class="card">
+    <h3>Beard Grooming</h3>
+    <p>Professional beard shaping.</p>
+    <strong>₦3,000</strong>
+</div>
+
+<div class="card">
+    <h3>Hair Styling</h3>
+    <p>Modern styles for your look.</p>
+    <strong>₦7,000</strong>
+</div>
+
+<div class="card">
+    <h3>Kids Haircut</h3>
+    <p>Neat cuts for children.</p>
+    <strong>₦4,000</strong>
+</div>
+    <h3>Classic Haircut</h3>
+    <p>Clean and stylish cuts for every look.</p>
+</div>
+
+<div class="card">
+    <h3>Beard Grooming</h3>
+    <p>Professional beard shaping and treatment.</p>
+</div>
+
+<div class="card">
+    <h3>Hair Styling</h3>
+    <p>Modern styles made to match your personality.</p>
+</div>
+
+<div class="card">
+    <h3>Hair Washing</h3>
+    <p>Relaxing hair wash and care.</p>
+</div>
+
+<div class="card">
+    <h3>Hair Treatment</h3>
+    <p>Quality treatment for healthy hair.</p>
+</div>
+
+<div class="card">
+    <h3>Kids Haircut</h3>
+    <p>Neat and comfortable cuts for kids.</p>
+</div>
+
+<div class="card">
+    <h3>Facial Care</h3>
+    <p>Fresh and clean facial grooming.</p>
+</div>
+
+<div class="card">
+    <h3>Manicure & Pedicure</h3>
+    <p>Complete hand and foot care.</p>
+</div>
+</section>
+<section>
+  <section id="gallery">
+<h2>Our Gallery</h2>
+
+    <div class="gallery">
+
+        <div class="gallery-card">
+            <img src="https://images.unsplash.com/photo-1517832606299-7ae9b720a186" alt="Hair Washing">
+            <h3>Hair Washing</h3>
+        </div>
+
+        <div class="gallery-card">
+            <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033" alt="Haircut">
+            <h3>Classic Haircut</h3>
+        </div>
+
+        <div class="gallery-card">
+            <img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a" alt="Kids Haircut">
+            <h3>Kids Haircut</h3>
+        </div>
+
+        <div class="gallery-card">
+            <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1" alt="Beard Grooming">
+            <h3>Beard Grooming</h3>
+        </div>
+
+    </div>
+
+</section>
+    <section id="reviews">
+        <h2>Customer Reviews</h2>
+
+        <div class="review">
+            <h3>⭐⭐⭐⭐⭐ David A.</h3>
+            <p>"The best haircut I've had in a long time. Very professional service!"</p>
+        </div>
+
+        <div class="review">
+            <h3>⭐⭐⭐⭐⭐ Michael O.</h3>
+            <p>"Clean shop, friendly barbers, and excellent customer service."</p>
+        </div>
+
+        <div class="review">
+            <h3>⭐⭐⭐⭐⭐ Samuel K.</h3>
+            <p>"I always book here. Highly recommended!"</p>
+        </div>
+    </section>
+<section>
+<section id="booking">
+  <section>
+    <h2>Special Offer</h2>
+
+    <div class="card">
+        <h3>Welcome Offer</h3>
+        <p>Get a premium grooming experience at a special price for your first visit.</p>
+    </div>
+
+</section>
+<h2>Book An Appointment</h2>
+
+    <form action="https://wa.me/2349136774172" method="get" target="_blank">
+
+    <input type="text" name="name" placeholder="Your Name"><br><br>
+
+    <input type="tel" name="phone" placeholder="Phone Number"><br><br>
+
+    <select name="service">
+        <option>Select Service</option>
+        <option>Haircut</option>
+        <option>Beard Grooming</option>
+        <option>Hair Styling</option>
+    </select><br><br>
+
+    <input type="date" name="date"><br><br>
+
+    <select name="time">
+        <option>Select Time</option>
+        <option>9:00 AM</option>
+        <option>12:00 PM</option>
+        <option>3:00 PM</option>
+        <option>6:00 PM</option>
+    </select><br><br>
+
+    <textarea name="message" placeholder="Any special request?" rows="4"></textarea>
+    <br><br>
+
+    <button class="button" type="submit">
+        Submit Booking
+    </button>
+<select name="barber">
+    <option>Select Barber</option>
+    <option>Daniel</option>
+    <option>Michael</option>
+    <option>James</option>
+    <option>Samuel</option>
+    <option>David</option>
+    <option>Chris</option>
+    <option>No Preference</option>
+</select>
+<br><br>
+<form onsubmit="sendWhatsApp(); return false;">
+  <p>
+    Choose your preferred service, barber, date and time.
+    We will confirm your appointment through WhatsApp.
+</p>
+</section>
+<section>
+    <h2>Opening Hours</h2>
+
+    <div class="card">
+        <p>Monday - Friday: 8:00 AM - 8:00 PM</p>
+        <p>Saturday: 9:00 AM - 7:00 PM</p>
+        <p>Sunday: Closed</p>
+    </div>
+
+</section>
+<section>
+    <h2>What Our Customers Say</h2>
+
+    <div class="services">
+
+        <div class="card">
+            <p>"Amazing haircut and excellent service."</p>
+            <h3>- David</h3>
+        </div>
+
+        <div class="card">
+            <p>"Clean environment and professional barber."</p>
+            <h3>- Michael</h3>
+        </div>
+
+        <div class="card">
+            <p>"The best grooming experience."</p>
+            <h3>- James</h3>
+        </div>
+
+    </div>
+
+</section>
+<section>
+    <h2>Follow Us</h2>
+
+    <p>
+        Instagram: @thecrownbarberlounge
+    </p>
+
+    <p>
+        WhatsApp: 09136774172
+    </p>
+
+    <p>
+        Email: tifethread@gmail.com
+    </p>
+</section>
+<section>
+
+<section>
+    <h2>Why Choose Us</h2>
+
+    <div class="services">
+
+        <div class="card">
+            <h3>Professional Barbers</h3>
+            <p>Skilled barbers who understand modern styles.</p>
+        </div>
+
+        <div class="card">
+            <h3>Clean Environment</h3>
+            <p>A comfortable and hygienic grooming space.</p>
+        </div>
+
+        <div class="card">
+            <h3>Premium Service</h3>
+            <p>Quality grooming experience for every customer.</p>
+        </div>
+
+    </div>
+
+</section>
+<section>
+    <h2>Meet Our Barbers</h2>
+
+    <div class="services">
+
+        <div class="card">
+            <img src="https://randomuser.me/api/portraits/men/32.jpg" width="100%" alt="Daniel">
+            <h3>Daniel</h3>
+            <p>Fade Specialist</p>
+        </div>
+
+        <div class="card">
+            <img src="https://randomuser.me/api/portraits/men/45.jpg" width="100%" alt="Michael">
+            <h3>Michael</h3>
+            <p>Beard Grooming Expert</p>
+        </div>
+
+        <div class="card">
+            <img src="https://randomuser.me/api/portraits/men/54.jpg" width="100%" alt="James">
+            <h3>James</h3>
+            <p>Modern Style Specialist</p>
+        </div>
+
+        <div class="card">
+            <img src="https://randomuser.me/api/portraits/men/65.jpg" width="100%" alt="Samuel">
+            <h3>Samuel</h3>
+            <p>Kids Haircut Expert</p>
+        </div>
+
+        <div class="card">
+            <img src="https://randomuser.me/api/portraits/men/75.jpg" width="100%" alt="David">
+            <h3>David</h3>
+            <p>Premium Grooming Specialist</p>
+        </div>
+
+        <div class="card">
+            <img src="https://randomuser.me/api/portraits/men/85.jpg" width="100%" alt="Chris">
+            <h3>Chris</h3>
+            <p>Classic Cut Specialist</p>
+        </div>
+
+    </div>
+
+</section>
+<section>
+    <h2>Our Location</h2>
+
+    <p>
+        Visit The Crown Barber Lounge for premium grooming services.
+    </p>
+
+    <p>
+        📍 Lagos, Nigeria
+    </p>
+
+    <a class="button" href="https://www.google.com/maps" target="_blank">
+        Get Directions
+    </a>
+
+</section>
+
+<section>
+    <h2>Contact Us</h2>
+
+    <div class="card">
+
+        <p>📞 WhatsApp: 09136774172</p>
+
+        <p>✉️ Email: tifethread@gmail.com</p>
+
+        <p>📍 Location: Lagos, Nigeria</p>
+
+    </div>
+
+</section>
+<footer>
+
+    <h3>The Crown Barber Lounge</h3>
+
+    <p>
+        Where Style Meets Confidence
+    </p>
+
+    <p>
+        📍 Lagos, Nigeria
+    </p>
+
+    <p>
+        📞 WhatsApp: 09136774172
+    </p>
+
+    <p>
+        ✉️ tifethread@gmail.com
+    </p>
+
+    <p>
+        © 2026 The Crown Barber Lounge. All Rights Reserved.
+    </p>
+
+</footer>
+    </section>
+
+    <!-- Customer Reviews -->
+
+
+
+<script>
+function sendWhatsApp() {
+...
+}
+</script>
+</body>
+</html>
+<script>
+function sendWhatsApp() {
+
+    let name = document.querySelector('input[placeholder="Your Name"]').value;
+    let phone = document.querySelector('input[placeholder="Phone Number"]').value;
+
+    let service = document.querySelector('select[name="service"]').value;
+    let barber = document.querySelector('select[name="barber"]').value;
+
+    let message = 
+    "New Booking Request%0A" +
+    "Name: " + name + "%0A" +
+    "Phone: " + phone + "%0A" +
+    "Service: " + service + "%0A" +
+    "Barber: " + barber;
+
+    window.open("https://wa.me/2349136774172?text=" + message);
+}
+</script>
+</body>
+</html>
